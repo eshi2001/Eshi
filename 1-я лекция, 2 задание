@@ -1,22 +1,13 @@
-#include <iostream>
-
+#include<iostream>
 using namespace std;
-
-int main()
-{
-    int a;
-    float b;
-    double c;
-    long d;
-    float s, v, e, f;
-    cin >> a >> b >> c>> d;
-    s = a + b;
-    h = c / d;
-    g = b * c;
-    z = a - d;
-    cout << "сумма = " << s << endl;
-    cout << "деление = " << h << endl;
-    cout << "произведение = " << g << endl;
-    cout << "разность = " << z << endl;
-    return 0;
+int main(){
+	int number;
+	float weight, a, b, c, d;
+	char letter;
+	bool flag;
+	a = 2 + 2;
+	b = 2 - 2;
+	c = 2 * 2;
+	d = 2 / 2;
+	return 0;
 }
