@@ -11,12 +11,12 @@ int main()
     float s, v, e, f;
     cin >> a >> b >> c>> d;
     s = a + b;
-    v = c / d;
-    e = b * c;
-    f = a - d;
-    cout << "sum=" << s << endl;
-    cout << "division=" << v << endl;
-    cout << "multi=" << e << endl;
-    cout << "difference=" << f << endl;
+    h = c / d;
+    g = b * c;
+    z = a - d;
+    cout << "сумма = " << s << endl;
+    cout << "деление = " << h << endl;
+    cout << "произведение = " << g << endl;
+    cout << "разность = " << z << endl;
     return 0;
 }
