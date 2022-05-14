@@ -1,14 +1,26 @@
-#include<fstream>
-#include<iostream>
-using namespace std;
+#include <stdio.h>
+
 int main()
 {
-
-    ofstream fout("output.txt");
-    int a, b;
-    cin >> a >> b;
-    for (int i = a; i <= b ; i++)
+   int a, b, i;
+   FILE *t;
+   t = fopen("output","w");
+   
+   printf("A and B: ");
+   scanf("%d %d", &a, &b);
+   printf("A: %d\nB: %d\n", a, b);
     {
-        fout << i * 3 << endl;
-    }
-    fout.close();
+        int s;
+        for (int i=a; a<=b; a++)
+        {
+            s=a*3;
+            {
+                fprintf(t, "s: %d\n", s);
+            }
+        }
+    }     
+
+   fclose(t);
+
+   return 0;
+}
