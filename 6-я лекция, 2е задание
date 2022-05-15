@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+void print(int p){
+	printf("%d\n",p);
+}
+void print(float p){
+	cout<<p<<endl;
+}
+void print(char p){
+	printf("%c\n",p);
+}
+void print(int p, int t){
+	printf("%d, %d\n", p, t);
+}
+int main(){
+	print(10);
+	print(float(1.1));
+	print('a');
+	print(1, 2);
+	return 0;
+}
