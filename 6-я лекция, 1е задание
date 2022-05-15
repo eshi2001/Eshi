@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+void reverse(char *p){
+	for(int i=0; i<strlen(p); i++)
+		cout<<*(p+strlen(p)-1-i);
+	cout<<endl;
+	return;
+}
+
+int main(){
+	char tmp[256];
+	cin.getline(tmp, 256);
+	reverse(tmp);
+} 
