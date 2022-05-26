@@ -1,16 +1,17 @@
 #include <iostream>
 #include <string>
+
 using namespace std;
 
 int main()
 {
-    int i;
-    string massiv[10] = {"ноль", "один", "два", "три", "чре", "п", "ш", "с", "в", "д"};
-    
-    cout<<"Введите число: ";
-    cin>>i;
-    
-cout<<massiv[i];
-    
-return 0;
+    int a;
+    string z[10]={
+        "ноль", "один","два","три","четыре",
+        "пять","шесть","семь","восемь","девять"
+    };
+    cout<<"Введите число";
+    cin>>a;
+    cout<<z[a];
+    return 0;
 }
