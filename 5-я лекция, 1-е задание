@@ -1,17 +1,19 @@
 #include <iostream>
 
-using namespace std;
+using namespace std ;
 
-int main()
+float SquaredSum(float a, float b,float result)
 {
-    float a,b;
-    
-    cout<<"введите 1е число: " << "\n";
-    cin >> a;
-    cout<<"введите 2е число: " << "\n";
-    cin >> b;
-    
-    cout<< "результат: " << (a+b)*(a+b);
-    
-    return 0;
+    result=(a+b)*(a+b);
+    return result;
+}
+
+int main ()
+{
+    float c,d,result;
+    cout<<"Введите первое дробное число\n";
+    cin>>c;
+    cout<<"Введите второе дробное число\n";
+    cin>>d;
+    cout<<"Результат - "<<SquaredSum(c,d,result)<<"\n";
 }
